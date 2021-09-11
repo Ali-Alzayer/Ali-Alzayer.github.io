@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Company Newsletter</title>
+		<meta name="description" content="coffeeTime">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="coffeeTime.css">
+	</head>
+
+
+	<body>
+		<header>
+			<h1>Coffee Time</h1>
+		</header>
+
+
+        <figure>
+            <img src="Coffeeshop.jpg" style="width:550px;height:250px;"
+                 alt="Coffeeshop.jpg">
+            <figcaption>It's Coffee time! </figcaption>
+        </figure>
+		
+
+
+
+		<main>
+            <body>
+                <header>
+                    <h2> Company Newsletter </h2>
+                </header>
+                <form action='/L38.html' method='GET'>
+                    <div>
+                      <label for='firstname'>First Name: </label>
+                      <input name='fname' id='firstname' type='text' placeholder='John' size="30px" maxlength="6" minlength="3" required>
+                      <label for='lastname'>Last Name: </label>
+                      <input name='lname' id='lastname' type='text' placeholder='Smith' size="30px" maxlength="10" minlength="1" required>
+                      <label for='phonenumber'>Phone Number: </label>
+                      <input name='Pnumber' id='Pnumber' type='number' placeholder='000-000-0000' maxlength="13" minlength="10" required>
+                    </div>
+        
+                    <div>
+                      <label for='male'>Male: </label>
+                      <input type='radio' name='gender' id='male' value='male'>
+                      <label for='female'>Female: </label>
+                      <input type='radio' name='gender' id='female' value='female'>
+                    </div>
+                    <div>
+                      <label for='mailid'>Email: </label>
+                      <input name='email' id='mailid' type='email' placeholder='Email' size="30px" maxlength="25" minlength="9" required>
+                    </div>
+                 
+                 
+                    
+                 </form>
+
+                 <div>
+                     <h3>What would you like to recive about?</h3>
+                     <label for="adds"></label>
+                     <input id="coupons" type="checkbox" name= "adds">coupons 
+
+                     <label for="adds"></label>
+                     <input id="coupons" type="checkbox" name= "adds">Up Coming Events 
+
+                     <label for="adds"></label>
+                     <input id="coupons" type="checkbox" name= "adds">Sales
+                     
+                     <label for="adds"></label>
+                     <input id="coupons" type="checkbox" name= "adds">Seasonal Drinks
+                 </div>
+
+                 <label for="info">How did you find us!</label>
+
+                     <select name="info" id="info">
+                     <option value="Instagram">Instagram</option>
+                     <option value="Snapchat">Snapchat</option>
+                     <option value="Twitter">Twitter</option>
+                     <option value="Email">Email</option>
+                     <option value="Friends">Friends</option>
+                     </select>
+
+
+
+                     <br></br>
+
+                     <input type='reset' value='Reset!'>
+                    <input type='submit'>
+                     
+
+
+
+			<h4>Location</h4>
+			<p>Coffee Time is located at<br>
+			8544 University City Blvd<br>
+			Charlotte, NC 28213.<br>
+			See <a id="locationlink" href="https://maps.google.com/">Google Maps</a> for directions.</p>
+
+		</main>
+
+		<footer>
+			<p>Copyright © Coffee Time<br>
+			aalzaye2@uncc.edu</p>
+			<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+		</footer>
+
+	</body>
+</html>
