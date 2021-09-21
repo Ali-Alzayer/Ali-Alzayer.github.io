@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    font-family: Raleway;
+}
+
+
+
+html{
+
+	background-color: #cdd6d8;
+
+
+}
+
+.main-header {
+    background-image: url(C:/Users/3lijz/Desktop/itis3135_work/GitHub/Ali/yourgithubid.github.io/itis3135/download.jpeg);
+
+}
+.main-header{
+    background-size: cover;
+}
+
+.about-company{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
