@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+header {
+    width: 100%;
+    background-color: teal;
+    color: white;
+    padding: 15;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+    display: inline-block;
+}
+h2{
+    margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.cals{
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+    margin-left: 40px;
+    background: rgba(18, 17, 19, 0.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+
+  .box .input-box {
+    position: relative;
+  }
+  .box .input-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 2px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .box .input-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .y:focus ~ label,
+.y:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.x:focus ~ label,
+.x:valid ~ label {
+  top: 40px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+label{
+    color: white;
+}
+.button {
+    margin-top: 10px;
+    border: 2px solid teal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+    padding: 10px 20px;
+    
+  }
+  .button:hover {
+    background: teal;
+  }
