@@ -1,7 +1,12 @@
+/*ITIS 3135 Activity 3 css file*/
+
+/*styling for the whole page goes here*/
 body
 {
-	background-color:#ECD9BD; 
+	background-color:#EBEBEB; 
 }
+
+
 
 header{
 
@@ -10,7 +15,7 @@ header{
 }
 
 ::-webkit-input-placeholder{
-	color: rgb(130, 14, 238);
+	color: rgb(75, 39, 2);
 }
 
 figcaption {
