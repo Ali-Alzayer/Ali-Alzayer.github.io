@@ -2,6 +2,7 @@ body
 {
 	width: 750px;
 	margin: 0 auto;
+    color: #46508D;
 }
 
 table
@@ -40,6 +41,8 @@ figure {
     padding: 5px;
     max-width: 200px;
     margin: auto;
+    width:550px;
+    height:250px
 }
 
 img {

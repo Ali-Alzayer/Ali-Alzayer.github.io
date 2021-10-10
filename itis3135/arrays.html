@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Arrays </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="arrays.css">
+  <header>
+    <h1>Arrays</h1>
+  </header>
+</head>
+
+<body>
+
+
+  <div class="tabs">
+    <div class="group1">
+      <div class="controls">
+        <input class="button" id="displaySalary" type="button" value="Display Salary">
+        <input class="button" id="displayResult" type="button" value="Display Result">
+        <select class="dropdown" name="Persons" id="personList" onchange="getSelectedPerson()">
+          <option value="Test">Test</option>
+        </select>
+      </div>
+
+      <div>
+        <table class="table" id="results_table"> </table>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>Add Salary</h2>
+      <form action="">
+        <div class="input-box">
+          <input class="y" id="name" type="text" name="" required="">
+          <label class="y">Name</label>
+        </div>
+        <div class="input-box">
+          <input class="x" id="salary" type="number" name="" required="">
+          <label class="x">Salary</label>
+        </div>
+      </form>
+      <input class="button" id="addSalary" type="button" value="Add Salary">
+      <div id="results"></div>
+    </div>
+
+  </div>
+
+
+</body>
+<footer>
+  <p>Copyright © Arrays<br>
+    aalzaye2@uncc.edu</p>
+  <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+
+<script src="./scripts/arrays.js"></script>
+
+</html>
