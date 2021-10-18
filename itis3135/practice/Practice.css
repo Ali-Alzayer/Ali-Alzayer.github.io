@@ -51,13 +51,34 @@ input {
     width: 150px;
     margin-right: 5px;
 }
-#buttons {
-	margin-top: 0;
-	width: 1000px;
+#place_order {
+		background-color: blue; 
+		border: none;
+		color: white;
+		padding: 10px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 10px;
+}
+#clear_order{
+	background-color: blue; 
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+}
+#contact_us{
+	background-color: blue; 
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
 }
 /* add styling for buttons on homepage */
-
-
-
-
-
