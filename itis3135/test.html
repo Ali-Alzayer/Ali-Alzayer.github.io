@@ -1,36 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Company Newsletter</title>
-		<meta name="description" content="3135 Activity">
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="coffee.css">
-	</head>
-
-<body>
-		<header>
-      <h1> Ali Alzayer, ITIS3135</h1>
-		</header>
-
-        <figure>
-            <img src="coffee.jpg" alt="coffee shop"/>
-            <figcaption> Coffee time </figcaption>
-        </figure>
-
-        <main>
-            <h2> Coffee page </h2>
-<form action="results.html" method="GET">
-    <div>
+<form id="result" name="order_form" action="#" method="get">
+  <div>
       <label for="name">Name</label>
-      <input type="text" name="name" id="name" required>
+      <input name='name' id='name' type='text' placeholder='John' required>
   </div>
   <div>
     <label for="email">Email</label>
-    <input type="email" name="email" id="email" required>
+    <input type="email" name="email" id="email" placeholder='john@gmail.com' required>
   </div>
   <div>
     <label for="age">Age</label>
-    <input type="number" name="age" id="age" min="1" max="200" step="5">
+    <input type="number" name="age" id="age" min="1" max="200" step="5" placeholder='22'>
   </div>
   <div>
     <label for="date">Birthdate</label>
@@ -47,13 +26,13 @@
       <input type="checkbox" name="apple" id="apple">
     </div>
     <div>
-        <label for="brownie">brownie</label>
-        <input type="checkbox" name="brownie" id="brownie">
-      </div>
-      <div>
-        <label for="cheese_danish">cheese_danish</label>
-        <input type="checkbox" name="cheese_danish" id="cheese_danish">
-      </div>
+      <label for="brownie">brownie</label>
+      <input type="checkbox" name="brownie" id="brownie">
+    </div>
+    <div>
+      <label for="cheese_danish">cheese_danish</label>
+      <input type="checkbox" name="cheese_danish" id="cheese_danish">
+    </div>
   </div>
   <div>
     Gender
@@ -72,18 +51,23 @@
     <input type="tel" name="phone" id="phone">
   </div>
   <div>
-    <label>
-      Password
-      <input type="password" name="password" required>
-    </label>
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color">
+  </div>
+  <div>
+  <label for="info">How did you find us!</label>
+  <select name="info" id="info">
+  <option value="Instagram">Instagram</option>
+  <option value="Snapchat">Snapchat</option>
+  <option value="Twitter">Twitter</option>
+  <option value="Email">Email</option>
+  <option value="Friends">Friends</option>
+  </select>
   </div>
   <button type="reset">Reset</button>
   <button type="submit">Submit</button>
 </form>
-</main>
 <footer>
-    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
 </footer>
-</body>
-</html>
