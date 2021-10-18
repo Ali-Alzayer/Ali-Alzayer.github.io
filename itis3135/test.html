@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Company Newsletter</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="coffee.css">
+	</head>
+
+<body>
+		<header>
+      <h1> Ali Alzayer, ITIS3135</h1>
+		</header>
+
+        <figure>
+            <img src="coffee.jpg" alt="coffee shop"/>
+            <figcaption> Coffee time </figcaption>
+        </figure>
+
+        <main>
+            <h2> Coffee page </h2>
+<form action="results.html" method="GET">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="1" max="200" step="5">
+  </div>
+  <div>
+    <label for="date">Birthdate</label>
+    <input type="date" name="date" id="date" min="2019-06-10">
+  </div>
+  <div>
+    Favorite Food
+    <div>
+      <label for="banana">Banana</label>
+      <input type="checkbox" name="banana" id="banana">
+    </div>
+    <div>
+      <label for="apple">Apple</label>
+      <input type="checkbox" name="apple" id="apple">
+    </div>
+    <div>
+        <label for="brownie">brownie</label>
+        <input type="checkbox" name="brownie" id="brownie">
+      </div>
+      <div>
+        <label for="cheese_danish">cheese_danish</label>
+        <input type="checkbox" name="cheese_danish" id="cheese_danish">
+      </div>
+  </div>
+  <div>
+    Gender
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male">
+    </div>
+    <div>
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female">
+    </div>
+  </div>
+  <input type="hidden" name="hidden" value="hi">
+  <div>
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone" id="phone">
+  </div>
+  <div>
+    <label>
+      Password
+      <input type="password" name="password" required>
+    </label>
+  </div>
+  <button type="reset">Reset</button>
+  <button type="submit">Submit</button>
+</form>
+</main>
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>
