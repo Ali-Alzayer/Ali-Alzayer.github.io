@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="Activity_Accessibility.css">
+  <title>Test For Accessibility</title>
+
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+
+    <table class="center">
+
+      <caption>Candles</caption>
+      <thead>
+        <tr>
+          <!-- identify table headers <th> with scope attribute -->
+          <th >TYPE</th>
+          <th >PRODUCT</th>
+          <th >FEATURES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Birthday-Candles</th>
+          <td><img src="images/Birthday-Candles.jpg" alt="Birthday Candles" style="width:100px;height:100;" ></td>
+          <td><ul>
+            <li> 1. Comes in a range of fun, vibrant colors</li>
+            <li> 2. Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+            <li> 3. Offers a way to personalize cutsomers' desserts on birthdays and anniversaries</li>
+          </ul>
+          </td>   
+        </td>
+        </tr>
+        <tr>
+            <th>taper-candles</th>
+            <td><img src="images/taper-candles.jpg" alt="taper Candles" style="width:100px;height:100;"></td>
+            <td> <ul>
+              <li> Inexpensive and easy to use</li>
+              <li> Bigger than tea lights to burn times, making them better for longer events</li>
+            </ul>
+          </td>
+          </tr>
+          <tr>
+              <th>voltives</th>
+              <td><img src="images/voltives.jpeg" alt="voltives Candles" style="width:100px;height:100;"></td>
+              <td><ul>
+                <li> Commonly known as window candles</li>
+                <li> Long, slender constructions add dimension to table tops</li>
+              </ul>
+            </td>
+            </tr>
+      </tbody>
+    </table>
+     <!--Add the form here-->
+     <header>
+      Enter your name and phone number to win a gift!. 
+    </header>
+     <form action="post">
+      <label for="firstName">First name:</label>
+      <input id="firstName" type="text" aria-required="true" />
+      <br/>
+      <label for="lastName">Last name:</label>
+      <input id="lastName" type="text" aria-required="true" />
+      <br/>
+      <label for="phoneNumber">Phone Number:</label>
+      <input id="phoneNumber" type="number" aria-required="true" />
+      <input type="submit" value="Submit">
+  </form>
+    
+  
+    <div class="whitespace"></div>
+    <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+    <div class="whitespace"></div>
+
+    <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+      color and background color passes WCAG standard!</a>
+  </main>
+
+	<footer>
+		<a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+	</footer>
+</body>
+</html>
