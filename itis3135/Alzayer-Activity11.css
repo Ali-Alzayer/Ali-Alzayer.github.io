@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    width: 75%;
+    min-width: 300px;
+    max-width: 75%;
+    margin: 1.5em auto;
+    padding: 15px 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 45px;
+}
+
+li {
+    padding-bottom: .5em;
+}
+
+p {
+    padding-bottom: .5em;
+    text-align: justify;
+}
+
+.tabs {
+    content: inherit;
+}
+
+.tab {
+    width: 100%;
+    margin: 0.5em 0;
+    display: block;
+    background: #dfdcdc;
+    color: #070505;
+    padding: 0.75em;
+    border-radius: 12px;
+    transition: background 0.3s ease;
+}
+
+.tab:hover {
+    background: rgba(98, 132, 206, 0.9);
+}
+
+.tab:active {
+    background-color: rgb(52, 96, 228);
+}
+
+.txt {
+    padding-left: 2px;
+    overflow: hidden;
+}

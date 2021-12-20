@@ -1,0 +1,10 @@
+<nav>
+		    <a href="https://webpages.uncc.edu/aalzaye2/" target="_blank">Charlotte.edu</a> ║
+		
+		    <a href="https://ali-alzayer.github.io/" target="_blank">Github.io</a> ║
+		    <a href="https://ali-alzayer.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> ║
+		    
+		    <a href="https://www.freecodecamp.org/aalzayer/" target="_blank">freeCodeCamp</a> ║
+		    
+		    <a href="https://www.linkedin.com/in/ali-alzayer-/" target="_blank">LinkedIn</a> ║
+		</nav>

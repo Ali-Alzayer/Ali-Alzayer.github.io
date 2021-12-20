@@ -1,0 +1,80 @@
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body,html{
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100hv;
+            }
+            body{
+                background-image: url(view.jpg);
+                height: 609px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: bottom;
+            }
+            .center .avatar img{
+                border-radius: 500%;
+                width: 140px;
+                height: 140px;
+                margin-top: 5%;
+                object-fit: cover;
+                object-position: 0 -8px;
+            }
+            .center{
+                width: 55%;
+                background-color: rgba(0, 0, 0, 0.7);
+                height: 60hv;
+                text-align: center;
+                border-radius: 5px;
+            }
+            .content{
+                padding: 30px;
+
+            }
+            .h1{
+                color: wheat;
+            }
+            .content h2,p{
+                font-weight: lighter;
+                letter-spacing: 1px;
+                width: 70%;
+                margin: 10px auto;
+            }
+            .content h2{
+                font-weight: 400;
+            }
+            .content h3{
+                margin-top: 20px;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+    li, a, button{
+        font-family: "montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: wheat;
+        text-decoration: none;
+    }
+    nav{
+        order: 1;
+    }
+    .nav__links{
+        list-style: none;
+    }
+    .nav__links li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .nav__links li a{
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav__links li a:hover{
+        color: #FFC300 
+    }

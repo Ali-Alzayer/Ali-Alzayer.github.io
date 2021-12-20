@@ -1,0 +1,12 @@
+<div class="item">
+            <i class="icon fas fa-home"></i>
+            North Carolina, United States
+          </div>
+          <div class="item">
+            <i class="icon fas fa-phone"></i>
+            +1 704 550 6630
+          </div>
+          <div class="item">
+            <i class="icon fas fa-envelope"></i>
+            3lijz12@gmail.com
+          </div>
